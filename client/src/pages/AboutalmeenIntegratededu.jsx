@@ -1,10 +1,8 @@
-import React from 'react'
 import MainHeader from '../components/Al-Ameen-Integrated-College/Main-Page/MainHeader'
-import { Box, Text, Flex, Heading, Button } from '@chakra-ui/react';
+import { Box, Text, Flex, Heading } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 import ProgramDetails from '../components/Al-Ameen-Integrated-College/ProgramDetails';
 import AdmissionCycle from '../components/Al-Ameen-Integrated-College/AdmissionCycle';
-import FAQ from '../components/Al-Ameen-Integrated-College/FAQ';
 import Footer2 from '../components/Footer2';
 
 export default function AboutalmeenIntegratededu() {

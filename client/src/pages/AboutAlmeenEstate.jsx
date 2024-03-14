@@ -1,12 +1,9 @@
-import React from 'react'
-import { Box, Button,Flex, Heading, Text, Image } from '@chakra-ui/react';
+import { Box,Flex, Heading, Text, } from '@chakra-ui/react';
 import { useColorModeValue } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 import Footer3 from '../components/Footer3';
 import aboutImg from '../components/Al-Ameen-estate/estate-design-img/image12.jpg'; 
 import MainHeader from '../components/Al-Ameen-estate/Main-Page/MainHeader';
-import OurHouses from '../components/Al-Ameen-estate/OurHouses';
-import FAQ from '../components/Al-Ameen-estate/FAQ';
 
 
 export default function AboutAlmeenEstate() {

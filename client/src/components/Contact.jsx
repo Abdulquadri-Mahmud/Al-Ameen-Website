@@ -1,10 +1,6 @@
-import React from 'react';
-import { Box, Button,Flex, Heading, Text, Image } from '@chakra-ui/react';
+import { Box, Button,Flex } from '@chakra-ui/react';
 import { useColorModeValue } from '@chakra-ui/react';
-import { FaPhoneVolume } from "react-icons/fa6";
-import { MdLocationOn } from "react-icons/md";
 import { Link } from 'react-router-dom';
-import image11 from '../assets/img/image6.jpg';
 
 
 export default function Contact() {

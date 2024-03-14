@@ -1,6 +1,4 @@
-import React from 'react';
-import { Box, Button,Flex, Heading, Text, Image } from '@chakra-ui/react';
-import { useColorModeValue } from '@chakra-ui/react';
+import { Box,Heading, Text } from '@chakra-ui/react';
 import {
   Accordion,
   AccordionItem,

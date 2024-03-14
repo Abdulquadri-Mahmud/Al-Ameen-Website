@@ -1,5 +1,4 @@
-import React from 'react';
-import { Box, Flex,Heading } from '@chakra-ui/react';
+import { Box, Flex } from '@chakra-ui/react';
 import { useColorModeValue } from '@chakra-ui/react';
 import { Link } from '@chakra-ui/react';
 
@@ -13,7 +12,7 @@ export default function SidebarAccordion() {
               bgColor={useColorModeValue('green.600', 'gray.800')}>
                 <Flex flexDirection={'column'} gap={6} pt={10} px={5}>
                     <Link href='/about-al-ameen-estate' fontSize={16} fontWeight={500} textDecoration={'underline'} color={'white'} transitionDuration={'0.3s'} _hover={{color: 'gray.800'}}>Al-Ameen Estate</Link>
-                    <Link href='/about-al-ameen-quran-memo' fontSize={16} fontWeight={500} textDecoration={'underline'} color={'white'} transitionDuration={'0.3s'} _hover={{color: 'gray.800'}}>Al-Ameen Center For <br /> Qur'an Memorisation (ACQM)</Link>
+                    <Link href='/about-al-ameen-quran-memo' fontSize={16} fontWeight={500} textDecoration={'underline'} color={'white'} transitionDuration={'0.3s'} _hover={{color: 'gray.800'}}>Al-Ameen Center For <br /> Quran Memorisation (ACQM)</Link>
                     <Link href='/about-al-ameen-integrated-edu' fontSize={16} fontWeight={500} textDecoration={'underline'} color={'white'} transitionDuration={'0.3s'} _hover={{color: 'gray.800'}}>Al-Ameen Integrated Education College</Link>
                 </Flex>
             </Box>

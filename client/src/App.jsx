@@ -1,6 +1,4 @@
 import PagesRoutes from "./routes/PagesRoutes";
-import React from "react";
-
 
 function App() {
 

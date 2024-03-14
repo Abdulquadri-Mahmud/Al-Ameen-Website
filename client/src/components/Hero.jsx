@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Text, Stack, Flex, Heading, Button } from '@chakra-ui/react';
 import hero1 from '../assets/img/home.jpg';
 import hero2 from '../assets/img/image12.jpg';
@@ -8,6 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function SampleNextArrow(props) {
+  
     const { className, style, onClick } = props;
     return (
       <div

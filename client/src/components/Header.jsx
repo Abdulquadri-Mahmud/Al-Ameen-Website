@@ -1,12 +1,9 @@
-import React, { useState } from 'react'
 import { Box, Image, Flex} from '@chakra-ui/react';
 import logo1 from '../assets/logo/logo1.png';
 import { Link } from '@chakra-ui/react';
 import { useColorModeValue } from '@chakra-ui/react';
 import Themes from './Themes';
 import Accordions from './Accordions';
-import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa6";
-import { IoLogoYoutube } from 'react-icons/io5';
 import Sidebar from './Sidebar';
 
 export default function Header() {

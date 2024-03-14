@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Flex, Heading, Text } from '@chakra-ui/react';
 import { useColorModeValue } from '@chakra-ui/react';
 import quran from '../assets/img/Quran.png';
@@ -8,7 +7,7 @@ export default function ACMQ() {
     <>
         <Flex py={{base: 0, md: 10}} justifyContent={'space-between'} flexWrap={'wrap'} alignItems={'center'} px={{base: 3, md: 5, xl: 10}} bg={useColorModeValue('gray.200', 'gray.700')}>
             <Box width={'100%'} mx={'auto'}>
-                <Heading fontSize={{base:20, md:25}} textAlign={'center'}>Al-Ameen Centre for Qur'an Memorization (ACQM)</Heading>
+                <Heading fontSize={{base:20, md:25}} textAlign={'center'}>Al-Ameen Centre for Quran Memorization (ACQM)</Heading>
                 <Flex justifyContent={'space-around'} alignItems={'center'} flexWrap={'wrap'} mt={10}>
                     <Box w={{md:'45%', base: '100%'}} bg={useColorModeValue('gray.100', 'gray.800')} borderRadius={10} maxW={'full'}>
                         <img src={quran} alt="quran" />

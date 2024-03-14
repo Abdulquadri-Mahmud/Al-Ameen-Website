@@ -1,11 +1,7 @@
-import React from 'react';
 import OurHouses from '../components/Al-Ameen-estate/OurHouses';
 import Footer from '../components/Footer';
-import { Box, Button,Flex, Heading, Text, Image } from '@chakra-ui/react';
-import { useColorModeValue } from '@chakra-ui/react';
+import { Box,Flex, Heading, } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
-import MainHeader from '../components/AlAlmeenQuranMemo/MainHeader';
-import image11 from '../assets/img/image11.jpg';
 import Header from '../components/Header';
 
 export default function OurHouse() {

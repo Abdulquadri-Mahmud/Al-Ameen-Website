@@ -1,5 +1,4 @@
-import React from 'react'
-import { Box, Image, Flex, Input,FormLabel, Checkbox, Button } from '@chakra-ui/react';
+import { Box, Image, Flex} from '@chakra-ui/react';
 import logo1 from '../../assets/logo/logo1.png';
 import { Link } from '@chakra-ui/react';
 import { useColorModeValue } from '@chakra-ui/react';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Flex, Heading, Text, Image } from '@chakra-ui/react';
 import { useColorModeValue } from '@chakra-ui/react';
 import image11 from '../assets/img/image11.jpg';

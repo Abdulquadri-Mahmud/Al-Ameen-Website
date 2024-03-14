@@ -17,7 +17,7 @@ export default function Page() {
         {/* <ContactUs/> */}
         <Flex justifyContent={'center'} alignItems={'center'} flexDir={'column'} gap={3}>
           <FaLongArrowAltDown className='text-purple-600 text-2xl animate-bounce'/>
-          <Link to={'/al-ameen-integrated-education'} className='text-center font-semibold text-1xl underline'>More About Al-Ameen Estate</Link>
+          <Link to={'/about-al-ameen-estate'} className='text-center font-semibold text-1xl underline'>More About Al-Ameen Estate</Link>
         </Flex>
     </Box>
   )

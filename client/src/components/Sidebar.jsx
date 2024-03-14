@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Box, Image, Flex, Input,FormLabel, Checkbox, Button } from '@chakra-ui/react';
+import { useState } from 'react';
+import { Box, Flex } from '@chakra-ui/react';
 import { IoMdMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
 import { Link } from '@chakra-ui/react';

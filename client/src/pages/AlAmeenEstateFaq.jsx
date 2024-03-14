@@ -1,4 +1,3 @@
-import React from 'react';
 import Header from '../components/Header';
 import { Box, Heading, Flex} from '@chakra-ui/react';
 import Footer3 from '../components/Footer3';

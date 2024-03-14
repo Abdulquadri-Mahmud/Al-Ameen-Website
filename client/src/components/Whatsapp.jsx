@@ -1,5 +1,4 @@
-import React from 'react';
-import { Box, Flex, Heading, Text, Link } from '@chakra-ui/react';
+import { Flex, Link } from '@chakra-ui/react';
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function Whatsapp() {

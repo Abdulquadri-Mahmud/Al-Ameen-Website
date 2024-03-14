@@ -1,6 +1,4 @@
-import React from 'react';
-import { Box, Button,Flex, Heading, Text, UnorderedList,ListItem } from '@chakra-ui/react';
-import { useColorModeValue } from '@chakra-ui/react';
+import { Box,Heading, Text, UnorderedList,ListItem } from '@chakra-ui/react';
 
 export default function ProgramDetails() {
   return (

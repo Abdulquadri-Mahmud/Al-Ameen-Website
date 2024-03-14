@@ -20,7 +20,8 @@ export default function Contact() {
     const myEmail = 'abdulquadrimahmud06@gmail.com'
     const handleSubmit = (e) => {
         e.preventDefault();
-        window.location.href = `mailto:${myEmail}?subject=Regarding ${name}&body=${message}`;
+        window.location.href = `mailto:${myEmail}?subject=Regarding ${name}
+        &email=${email}&mobile=${mobile}&purpose=${purpose}&body=${message}`;
     }
     return (
         <>
@@ -81,15 +82,15 @@ export default function Contact() {
                             </div>
                         </div>
                         <div className="">
-                            <select onChange={handleChange} className="w-full md:mt-3 mt-2 rounded p-3 font-semibold text-1xl bg-gray-50 outline-2 outline-green-600">
+                            <select onChange={handleChange} className="w-full md:mt-3 mt-2 rounded p-3 text-black font-semibold text-1xl bg-gray-50 outline-2 outline-green-600">
                                 <option>Purpose</option>
                                 <option value="Al-Ameen Integrated Education">Al-Ameen Integrated Education</option>
                                 <option value="Al-Ameen Estate">Al-Ameen Estate</option>
-                                <option value="Al-Ameen Arabic and Qur'an Memorisation">Al-Ameen Arabic and Qur'an Memorisation</option>
+                                <option value="Al-Ameen Arabic and Quran Memorisation">Al-Ameen Arabic and Qur'an Memorisation</option>
                             </select>
                         </div>
                         <div className="">
-                            <textarea onChange={handleChange} className="w-full text-1xl font-semibold md:mt-3 mt-2 rounded md:h-36 h-31 p-3 outline-2 outline-green-600 bg-slate-100" placeholder="Type Message" id="message" >
+                            <textarea onChange={handleChange} className="w-full text-1xl font-semibold md:mt-3 mt-2 rounded md:h-36 h-31 p-3 outline-2 text-black outline-green-600 bg-slate-100" placeholder="Type Message" id="message" >
     
                             </textarea>
                         </div>

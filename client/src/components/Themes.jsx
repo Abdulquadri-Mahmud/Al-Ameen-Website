@@ -1,4 +1,3 @@
-import React from 'react';
 import { useColorMode } from '@chakra-ui/react';
 import { useColorModeValue } from '@chakra-ui/react';
 import { Box, Button } from '@chakra-ui/react';

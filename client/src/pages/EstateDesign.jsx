@@ -1,7 +1,5 @@
-import React from 'react';
-import OurHouses from '../components/Al-Ameen-estate/OurHouses';
 import Footer from '../components/Footer';
-import { Box, Button,Flex, Heading, Text, Image } from '@chakra-ui/react';
+import { Box,Flex, Heading, } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import EstateDesigns from '../components/Al-Ameen-estate/EstateDesigns';

@@ -1,10 +1,8 @@
-import React from 'react';
-import { Box, Flex, Heading, Text, Image } from '@chakra-ui/react';
+import { Box, Flex, Heading, Text } from '@chakra-ui/react';
 import { useColorModeValue } from '@chakra-ui/react';
 import { Link } from 'react-router-dom'; 
 import { FaFacebookF, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa6';
 import { IoLogoYoutube } from 'react-icons/io5';
-import logo1 from '../assets/logo/logo2.png';
 import {
     Accordion,
     AccordionItem,
@@ -59,7 +57,7 @@ export default function Footer2() {
                         </h2>
                         <AccordionPanel pb={4}>
                             <Box py={1}>
-                                <Link to='/about-al-ameen-quran-memo' className='underline font-semibold py-2'>Al-Ameen Center For Qur'an Memorisation (ACQM)</Link> <br />
+                                <Link to='/about-al-ameen-quran-memo' className='underline font-semibold py-2'>Al-Ameen Center For Quran Memorisation (ACQM)</Link> <br />
                             </Box>
                             <Box py={1}>
                                 <Link to='/about-al-ameen-integrated-edu' className='underline font-semibold py-2'>Al-Ameen Integrated Education College</Link><br />
