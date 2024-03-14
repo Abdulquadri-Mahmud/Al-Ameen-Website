@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.accordion label::after{
+    content: url('./assets/img/down.png');
+    position: absolute;
+    top: 3px;
+    transform: translateX(4px);
+    transition: all 0.3s;
+}
+
+.accordion input:checked ~ label::after{
+    content: url('./assets/img/down.png');
+    position: absolute;
+    top: 3px;
+    transform: translateX(7px) translateY(-4px) rotate(180deg);
+    transition: all 0.3s;
+}
+.accordion input:checked ~ .content{
+    height: 300px;
+    color: #dde1e7;
+    padding: 10px;
+}
+.accordion input:checked ~ .sidebarContent{
+    height: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    /* border: 2px solid gray; */
+}
+.content{
+    border-radius: 0px 0px 10px 10px;
+}
+.content::-webkit-scrollbar{
+    width: 10px; 
+    /* background: rgb(82, 93, 105); */
+    /* border-radius: 10px; */
+}
+.content::-webkit-scrollbar-track-piece{
+    width: 6px;
+    /* background-color: #dde1e7; */
+    border-radius: 10px;
+}
+
+.contactBgImage{
+    background-image: url(./assets/img/image11.jpg);
+    height: 100vh;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+     border-radius: 10px;
+}
+@media screen and (max-width: 321px) {
+    .contactBgImage{
+        height: 100vh;
+    }
+}
+
+/* @media screen and (min-width: 1280px) and (max-width: 1366px) {
+    .contactBgImage{
+        height: 100vh;
+    }
+} */
+.contact{
+    height: 50vh;
+    background-image: url(./assets/img/image12.jpg);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-color: rgb(135, 134, 134);
+}
+.estate{
+    background-image: url(./assets/img/image12.jpg);
+}
